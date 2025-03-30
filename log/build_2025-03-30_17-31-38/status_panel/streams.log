@@ -1,0 +1,76 @@
+[4.386s] Invoking command in '/home/pitosalas/linorobot2_ws/src/status_panel': PYTHONPATH=/home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/status_panel build --build-base /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build install --record /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/install.log --single-version-externally-managed install_data
+[5.774s] running egg_info
+[5.775s] creating build/status_panel/status_panel.egg-info
+[5.893s] writing build/status_panel/status_panel.egg-info/PKG-INFO
+[5.894s] writing dependency_links to build/status_panel/status_panel.egg-info/dependency_links.txt
+[5.895s] writing entry points to build/status_panel/status_panel.egg-info/entry_points.txt
+[5.896s] writing requirements to build/status_panel/status_panel.egg-info/requires.txt
+[5.897s] writing top-level names to build/status_panel/status_panel.egg-info/top_level.txt
+[5.897s] writing manifest file 'build/status_panel/status_panel.egg-info/SOURCES.txt'
+[6.125s] reading manifest file 'build/status_panel/status_panel.egg-info/SOURCES.txt'
+[6.128s] writing manifest file 'build/status_panel/status_panel.egg-info/SOURCES.txt'
+[6.129s] running build
+[6.130s] running build_py
+[6.130s] creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build
+[6.131s] creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib
+[6.131s] creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel
+[6.132s] copying status_panel/status_panel_node.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel
+[6.133s] copying status_panel/__init__.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel
+[6.134s] copying status_panel/display_ros.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel
+[6.135s] copying status_panel/test_import.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel
+[6.136s] creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/test_lib
+[6.136s] copying status_panel/test_lib/test_func.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/test_lib
+[6.137s] copying status_panel/test_lib/__init__.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/test_lib
+[6.139s] creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled
+[6.140s] copying status_panel/qwiic_micro_oled/oled_logos.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled
+[6.141s] copying status_panel/qwiic_micro_oled/qwiic_oled_base.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled
+[6.142s] copying status_panel/qwiic_micro_oled/qwiic_oled_display.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled
+[6.143s] copying status_panel/qwiic_micro_oled/__init__.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled
+[6.144s] copying status_panel/qwiic_micro_oled/oled_fonts.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled
+[6.145s] copying status_panel/qwiic_micro_oled/qwiic_micro_oled.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled
+[6.146s] copying status_panel/qwiic_micro_oled/qwiic_large_oled.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled
+[6.148s] running install
+[6.172s] running install_lib
+[6.281s] creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel
+[6.282s] creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/test_lib
+[6.282s] copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/test_lib/test_func.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/test_lib
+[6.283s] copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/test_lib/__init__.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/test_lib
+[6.284s] copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/status_panel_node.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel
+[6.285s] creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled
+[6.286s] copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled/oled_logos.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled
+[6.287s] copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled/qwiic_oled_base.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled
+[6.289s] copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled/qwiic_oled_display.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled
+[6.290s] copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled/__init__.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled
+[6.291s] copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled/oled_fonts.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled
+[6.292s] copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled/qwiic_micro_oled.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled
+[6.294s] copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled/qwiic_large_oled.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled
+[6.295s] copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/__init__.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel
+[6.296s] copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/display_ros.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel
+[6.297s] copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/test_import.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel
+[6.300s] byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/test_lib/test_func.py to test_func.cpython-312.pyc
+[6.302s] byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/test_lib/__init__.py to __init__.cpython-312.pyc
+[6.304s] byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/status_panel_node.py to status_panel_node.cpython-312.pyc
+[6.311s] byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled/oled_logos.py to oled_logos.cpython-312.pyc
+[6.329s] byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled/qwiic_oled_base.py to qwiic_oled_base.cpython-312.pyc
+[6.349s] byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled/qwiic_oled_display.py to qwiic_oled_display.cpython-312.pyc
+[6.350s] byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled/__init__.py to __init__.cpython-312.pyc
+[6.352s] byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled/oled_fonts.py to oled_fonts.cpython-312.pyc
+[6.357s] byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled/qwiic_micro_oled.py to qwiic_micro_oled.cpython-312.pyc
+[6.360s] byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled/qwiic_large_oled.py to qwiic_large_oled.cpython-312.pyc
+[6.361s] byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/__init__.py to __init__.cpython-312.pyc
+[6.363s] byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/display_ros.py to display_ros.cpython-312.pyc
+[6.365s] byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/test_import.py to test_import.cpython-312.pyc
+[6.366s] running install_data
+[6.367s] creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/share/ament_index
+[6.367s] creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/share/ament_index/resource_index
+[6.368s] creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/share/ament_index/resource_index/packages
+[6.369s] copying resource/status_panel -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/share/ament_index/resource_index/packages
+[6.369s] copying package.xml -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/share/status_panel
+[6.369s] running install_egg_info
+[6.513s] Copying build/status_panel/status_panel.egg-info to /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel-0.1.0-py3.12.egg-info
+[6.520s] running install_scripts
+[7.700s] Installing display_ros script to /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/status_panel
+[7.701s] Installing status_panel_node script to /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/status_panel
+[7.702s] Installing test_import script to /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/status_panel
+[7.704s] writing list of installed files to '/home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/install.log'
+[7.884s] Invoked command in '/home/pitosalas/linorobot2_ws/src/status_panel' returned '0': PYTHONPATH=/home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/status_panel build --build-base /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build install --record /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/install.log --single-version-externally-managed install_data

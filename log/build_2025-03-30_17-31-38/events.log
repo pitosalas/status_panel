@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.001560] (status_panel) JobQueued: {'identifier': 'status_panel', 'dependencies': OrderedDict()}
+[0.002600] (status_panel) JobStarted: {'identifier': 'status_panel'}
+[0.099255] (-) TimerEvent: {}
+[0.199876] (-) TimerEvent: {}
+[0.300570] (-) TimerEvent: {}
+[0.401197] (-) TimerEvent: {}
+[0.501888] (-) TimerEvent: {}
+[0.602638] (-) TimerEvent: {}
+[0.703267] (-) TimerEvent: {}
+[0.803831] (-) TimerEvent: {}
+[0.904369] (-) TimerEvent: {}
+[1.004973] (-) TimerEvent: {}
+[1.105632] (-) TimerEvent: {}
+[1.206763] (-) TimerEvent: {}
+[1.307569] (-) TimerEvent: {}
+[1.408574] (-) TimerEvent: {}
+[1.509597] (-) TimerEvent: {}
+[1.610395] (-) TimerEvent: {}
+[1.711002] (-) TimerEvent: {}
+[1.811576] (-) TimerEvent: {}
+[1.912157] (-) TimerEvent: {}
+[2.012721] (-) TimerEvent: {}
+[2.113247] (-) TimerEvent: {}
+[2.213780] (-) TimerEvent: {}
+[2.314308] (-) TimerEvent: {}
+[2.414875] (-) TimerEvent: {}
+[2.515426] (-) TimerEvent: {}
+[2.616059] (-) TimerEvent: {}
+[2.716578] (-) TimerEvent: {}
+[2.817148] (-) TimerEvent: {}
+[2.917667] (-) TimerEvent: {}
+[3.018244] (-) TimerEvent: {}
+[3.118795] (-) TimerEvent: {}
+[3.219355] (-) TimerEvent: {}
+[3.319923] (-) TimerEvent: {}
+[3.420451] (-) TimerEvent: {}
+[3.521036] (-) TimerEvent: {}
+[3.621565] (-) TimerEvent: {}
+[3.722150] (-) TimerEvent: {}
+[3.822722] (-) TimerEvent: {}
+[3.923270] (-) TimerEvent: {}
+[4.023813] (-) TimerEvent: {}
+[4.124364] (-) TimerEvent: {}
+[4.225109] (-) TimerEvent: {}
+[4.326152] (-) TimerEvent: {}
+[4.384536] (status_panel) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/status_panel', 'build', '--build-base', '/home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build', 'install', '--record', '/home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pitosalas/linorobot2_ws/src/status_panel', 'env': {'LINOROBOT2_BASE': '2wd', 'USER': 'pitosalas', 'SSH_CLIENT': '192.168.5.76 52774 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pitosalas/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass.sh', 'MCFLY_HISTFILE': '/home/pitosalas/.bash_history', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/pitosalas/uros_ws/install/micro_ros_agent/lib:/home/pitosalas/uros_ws/install/micro_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pitosalas/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/helpers/browser.sh', 'HOME': '/home/pitosalas', 'MCFLY_HISTORY': '/tmp/mcfly.WtJNsqi3', 'OLDPWD': '/home/pitosalas/linorobot2_ws', 'TERM_PROGRAM_VERSION': '1.98.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c96c3e08-efd8-434c-8338-afa45a938ff8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pitosalas/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\][\\h:\\w] \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/pitosalas/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/pitosalas/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pitosalas/linorobot2_ws/install:/home/pitosalas/uros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pitosalas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '398', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/pitosalas/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/remote-cli:/home/pitosalas/.local/bin:/home/pitosalas/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pitosalas/.local/bin:/home/pitosalas/.platformio/penv/bin:/home/pitosalas/.local/bin:/home/pitosalas/.platformio/penv/bin:/home/pitosalas/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/scripts/noConfigScripts:/home/pitosalas/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/pitosalas/.local/bin:/home/pitosalas/.platformio/penv/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/pitosalas/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-8966429a74964512.txt', 'LANG': 'en_US.UTF-8', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3b2a9a395a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pitosalas/linorobot2_ws/install/status_panel:/home/pitosalas/linorobot2_ws/install/micro_ros_setup:/home/pitosalas/linorobot2_ws/install/linorobot2_navigation:/home/pitosalas/linorobot2_ws/install/linorobot2_gazebo:/home/pitosalas/linorobot2_ws/install/dome:/home/pitosalas/linorobot2_ws/install/linorobot2_description:/home/pitosalas/linorobot2_ws/install/linorobot2_bringup:/home/pitosalas/linorobot2_ws/install/linorobot2_base:/home/pitosalas/linorobot2_ws/install/linorobot2:/home/pitosalas/linorobot2_ws/install/imu_calib:/home/pitosalas/linorobot2_ws/install/hls_lfcd_lds_driver:/home/pitosalas/uros_ws/install/micro_ros_agent:/home/pitosalas/uros_ws/install/micro_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel', 'MCFLY_SESSION_ID': '4I2Cfb9cNAEJ5Sxgmliqkxls', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.5.76 52774 192.168.5.118 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LINOROBOT2_DEPTH_SENSOR': '', 'PYTHONPATH': '/home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/status_panel/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/linorobot2_gazebo/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/dome/lib/python3.12/site-packages:/home/pitosalas/uros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'LINOROBOT2_LASER_SENSOR': '', 'CMAKE_PREFIX_PATH': '/home/pitosalas/linorobot2_ws/install/micro_ros_setup:/home/pitosalas/linorobot2_ws/install/linorobot2_navigation:/home/pitosalas/linorobot2_ws/install/linorobot2_gazebo:/home/pitosalas/linorobot2_ws/install/linorobot2_description:/home/pitosalas/linorobot2_ws/install/linorobot2_bringup:/home/pitosalas/linorobot2_ws/install/linorobot2_base:/home/pitosalas/linorobot2_ws/install/linorobot2:/home/pitosalas/linorobot2_ws/install/imu_calib:/home/pitosalas/linorobot2_ws/install/hls_lfcd_lds_driver:/home/pitosalas/uros_ws/install/micro_ros_agent:/home/pitosalas/uros_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'ROS2_WS': 'linorobot2_ws'}, 'shell': False}
+[4.426301] (-) TimerEvent: {}
+[4.526857] (-) TimerEvent: {}
+[4.627449] (-) TimerEvent: {}
+[4.728083] (-) TimerEvent: {}
+[4.828713] (-) TimerEvent: {}
+[4.929325] (-) TimerEvent: {}
+[5.029898] (-) TimerEvent: {}
+[5.130474] (-) TimerEvent: {}
+[5.231065] (-) TimerEvent: {}
+[5.331590] (-) TimerEvent: {}
+[5.432163] (-) TimerEvent: {}
+[5.532738] (-) TimerEvent: {}
+[5.633292] (-) TimerEvent: {}
+[5.733946] (-) TimerEvent: {}
+[5.775656] (status_panel) StdoutLine: {'line': b'running egg_info\n'}
+[5.777000] (status_panel) StdoutLine: {'line': b'creating build/status_panel/status_panel.egg-info\n'}
+[5.834080] (-) TimerEvent: {}
+[5.895541] (status_panel) StdoutLine: {'line': b'writing build/status_panel/status_panel.egg-info/PKG-INFO\n'}
+[5.896820] (status_panel) StdoutLine: {'line': b'writing dependency_links to build/status_panel/status_panel.egg-info/dependency_links.txt\n'}
+[5.897714] (status_panel) StdoutLine: {'line': b'writing entry points to build/status_panel/status_panel.egg-info/entry_points.txt\n'}
+[5.898370] (status_panel) StdoutLine: {'line': b'writing requirements to build/status_panel/status_panel.egg-info/requires.txt\n'}
+[5.899022] (status_panel) StdoutLine: {'line': b'writing top-level names to build/status_panel/status_panel.egg-info/top_level.txt\n'}
+[5.899633] (status_panel) StdoutLine: {'line': b"writing manifest file 'build/status_panel/status_panel.egg-info/SOURCES.txt'\n"}
+[5.934217] (-) TimerEvent: {}
+[6.034767] (-) TimerEvent: {}
+[6.127742] (status_panel) StdoutLine: {'line': b"reading manifest file 'build/status_panel/status_panel.egg-info/SOURCES.txt'\n"}
+[6.130842] (status_panel) StdoutLine: {'line': b"writing manifest file 'build/status_panel/status_panel.egg-info/SOURCES.txt'\n"}
+[6.131484] (status_panel) StdoutLine: {'line': b'running build\n'}
+[6.132038] (status_panel) StdoutLine: {'line': b'running build_py\n'}
+[6.132548] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build\n'}
+[6.133157] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib\n'}
+[6.133760] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel\n'}
+[6.134347] (status_panel) StdoutLine: {'line': b'copying status_panel/status_panel_node.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel\n'}
+[6.134772] (-) TimerEvent: {}
+[6.135209] (status_panel) StdoutLine: {'line': b'copying status_panel/__init__.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel\n'}
+[6.136067] (status_panel) StdoutLine: {'line': b'copying status_panel/display_ros.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel\n'}
+[6.136996] (status_panel) StdoutLine: {'line': b'copying status_panel/test_import.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel\n'}
+[6.138127] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/test_lib\n'}
+[6.138790] (status_panel) StdoutLine: {'line': b'copying status_panel/test_lib/test_func.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/test_lib\n'}
+[6.139618] (status_panel) StdoutLine: {'line': b'copying status_panel/test_lib/__init__.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/test_lib\n'}
+[6.141050] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled\n'}
+[6.142437] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_micro_oled/oled_logos.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled\n'}
+[6.143274] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_micro_oled/qwiic_oled_base.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled\n'}
+[6.144344] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_micro_oled/qwiic_oled_display.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled\n'}
+[6.145312] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_micro_oled/__init__.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled\n'}
+[6.146221] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_micro_oled/oled_fonts.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled\n'}
+[6.147189] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_micro_oled/qwiic_micro_oled.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled\n'}
+[6.148179] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_micro_oled/qwiic_large_oled.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled\n'}
+[6.150272] (status_panel) StdoutLine: {'line': b'running install\n'}
+[6.174264] (status_panel) StdoutLine: {'line': b'running install_lib\n'}
+[6.234922] (-) TimerEvent: {}
+[6.283415] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel\n'}
+[6.284179] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/test_lib\n'}
+[6.284843] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/test_lib/test_func.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/test_lib\n'}
+[6.285729] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/test_lib/__init__.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/test_lib\n'}
+[6.286527] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/status_panel_node.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel\n'}
+[6.287619] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled\n'}
+[6.288459] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled/oled_logos.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled\n'}
+[6.289589] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled/qwiic_oled_base.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled\n'}
+[6.291198] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled/qwiic_oled_display.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled\n'}
+[6.292380] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled/__init__.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled\n'}
+[6.293533] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled/oled_fonts.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled\n'}
+[6.294740] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled/qwiic_micro_oled.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled\n'}
+[6.295870] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_micro_oled/qwiic_large_oled.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled\n'}
+[6.297111] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/__init__.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel\n'}
+[6.298190] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/display_ros.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel\n'}
+[6.299346] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/test_import.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel\n'}
+[6.302640] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/test_lib/test_func.py to test_func.cpython-312.pyc\n'}
+[6.304714] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/test_lib/__init__.py to __init__.cpython-312.pyc\n'}
+[6.306316] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/status_panel_node.py to status_panel_node.cpython-312.pyc\n'}
+[6.312886] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled/oled_logos.py to oled_logos.cpython-312.pyc\n'}
+[6.330956] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled/qwiic_oled_base.py to qwiic_oled_base.cpython-312.pyc\n'}
+[6.335180] (-) TimerEvent: {}
+[6.350979] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled/qwiic_oled_display.py to qwiic_oled_display.cpython-312.pyc\n'}
+[6.352824] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled/__init__.py to __init__.cpython-312.pyc\n'}
+[6.354256] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled/oled_fonts.py to oled_fonts.cpython-312.pyc\n'}
+[6.358740] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled/qwiic_micro_oled.py to qwiic_micro_oled.cpython-312.pyc\n'}
+[6.361980] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_micro_oled/qwiic_large_oled.py to qwiic_large_oled.cpython-312.pyc\n'}
+[6.363498] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/__init__.py to __init__.cpython-312.pyc\n'}
+[6.364890] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/display_ros.py to display_ros.cpython-312.pyc\n'}
+[6.367324] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/test_import.py to test_import.cpython-312.pyc\n'}
+[6.368755] (status_panel) StdoutLine: {'line': b'running install_data\n'}
+[6.369322] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/share/ament_index\n'}
+[6.369842] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/share/ament_index/resource_index\n'}
+[6.370387] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/share/ament_index/resource_index/packages\n'}
+[6.370917] (status_panel) StdoutLine: {'line': b'copying resource/status_panel -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/share/ament_index/resource_index/packages\n'}
+[6.371393] (status_panel) StdoutLine: {'line': b'copying package.xml -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/share/status_panel\n'}
+[6.371884] (status_panel) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.435353] (-) TimerEvent: {}
+[6.515297] (status_panel) StdoutLine: {'line': b'Copying build/status_panel/status_panel.egg-info to /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel-0.1.0-py3.12.egg-info\n'}
+[6.522335] (status_panel) StdoutLine: {'line': b'running install_scripts\n'}
+[6.535592] (-) TimerEvent: {}
+[6.636383] (-) TimerEvent: {}
+[6.738097] (-) TimerEvent: {}
+[6.839766] (-) TimerEvent: {}
+[6.940934] (-) TimerEvent: {}
+[7.041635] (-) TimerEvent: {}
+[7.142283] (-) TimerEvent: {}
+[7.243013] (-) TimerEvent: {}
+[7.344184] (-) TimerEvent: {}
+[7.446056] (-) TimerEvent: {}
+[7.547324] (-) TimerEvent: {}
+[7.648843] (-) TimerEvent: {}
+[7.701159] (status_panel) StdoutLine: {'line': b'Installing display_ros script to /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/status_panel\n'}
+[7.702878] (status_panel) StdoutLine: {'line': b'Installing status_panel_node script to /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/status_panel\n'}
+[7.703795] (status_panel) StdoutLine: {'line': b'Installing test_import script to /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/status_panel\n'}
+[7.706203] (status_panel) StdoutLine: {'line': b"writing list of installed files to '/home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/install.log'\n"}
+[7.749126] (-) TimerEvent: {}
+[7.852905] (-) TimerEvent: {}
+[7.885767] (status_panel) CommandEnded: {'returncode': 0}
+[7.934259] (status_panel) JobEnded: {'identifier': 'status_panel', 'rc': 0}
+[7.938067] (-) EventReactorShutdown: {}

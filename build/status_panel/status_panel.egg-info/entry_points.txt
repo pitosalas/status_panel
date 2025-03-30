@@ -1,0 +1,4 @@
+[console_scripts]
+display_ros = status_panel.display_ros:main
+status_panel_node = status_panel.status_panel_node:main
+test_import = status_panel.test_import:main

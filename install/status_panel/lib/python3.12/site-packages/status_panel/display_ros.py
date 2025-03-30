@@ -1,15 +1,10 @@
 
 import sys
 import time
-import status_panel.qwiic_micro_oled_lib
-
-
-#qwiic_micro_oled_lib.qwiic_micro_oled_base import QwiicOledBase
-
-
+from status_panel.qwiic_micro_oled import qwiic_micro_oled
 
 def prep_oled():
-    myOLED = status_panel.qwiic_micro_oled_lib.QwiicMicroOled(60)
+    myOLED = qwiic_micro_oled.QwiicMicroOled(60)
     if not myOLED.connected:
         print("The Qwiic Micro OLED device isn't connected to the system. Please check your connection", \
             file=sys.stderr)
@@ -17,6 +12,7 @@ def prep_oled():
     myOLED.begin()
     myOLED.clear(myOLED.ALL)
     return myOLED
+
 
 def display_variable(oled, title, value):
     oled.print(f"{title}: {value}\\n")
@@ -31,7 +27,7 @@ def display_screen(oled):
 def main():
     try:
         ole = prep_oled()
-        display_screen(ole)
+        # display_screen(ole)
         ole.print("\n")
     except (KeyboardInterrupt, SystemExit) as exErr:
         print("\nEnding OLED Hello Example")
