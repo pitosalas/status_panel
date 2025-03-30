@@ -4,7 +4,7 @@ package_name = 'status_panel'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='0.1.0',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages', ['resource/status_panel']),
@@ -19,7 +19,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'odom_batt_scan_monitor = status_panel.status_panel_node:main',
+            'status_panel_node = status_panel.status_panel_node:main',
+            'display_ros = status_panel.display_ros:main',  # Assuming you have a main function in display_ros.py
         ],
     },
 )

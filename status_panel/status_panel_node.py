@@ -7,7 +7,7 @@ import time
 
 class StatusPanelNode(Node):
     def __init__(self):
-        super().__init__('odom_batt_scan_monitor')
+        super().__init__('status_panel_node')
 
         # Create subscriptions
         self.create_subscription(Odometry, '/odom', self.odom_callback, 10)
@@ -17,7 +17,7 @@ class StatusPanelNode(Node):
         # State variables
         self.odom_msg_count = 0
         self.scan_msg_count = 0
-        self.current_voltage = None
+        self.current_voltage = "n/a"
         self.last_time = time.time()
 
         # Timer: fires at 1 Hz to calculate rates and call report_status
@@ -48,12 +48,9 @@ class StatusPanelNode(Node):
 
     def report_status(self, voltage, odom_rate, scan_rate):
         # Replace this placeholder with your actual function implementation.
-        if voltage is None:
-            self.get_logger().warn("Battery voltage not yet received.")
-        else:
-            self.get_logger().info(
-                f"Voltage: {voltage:.2f} V, Odom Rate: {odom_rate:.2f} msgs/sec, Scan Rate: {scan_rate:.2f} msgs/sec"
-            )
+        self.get_logger().info(
+            f"Voltage: {voltage} V, Odom Rate: {odom_rate:.2f} msgs/sec, Scan Rate: {scan_rate:.2f} msgs/sec"
+        )            
 
     def run(self):
         rclpy.spin(self)
