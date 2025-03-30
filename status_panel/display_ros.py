@@ -2,6 +2,7 @@
 import sys
 import time
 from status_panel.qwiic_micro_oled import qwiic_micro_oled
+
 def prep_oled():
     myOLED = qwiic_micro_oled.QwiicMicroOled(60)
     if not myOLED.connected:
