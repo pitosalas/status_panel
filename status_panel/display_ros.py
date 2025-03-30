@@ -24,7 +24,7 @@ def display_screen(oled):
     display_variable(oled, "Date", time.strftime("%Y-%m-%d"))
     oled.display()  # Write the buffer to the display       
 
-if __name__ == '__main__':
+def main():
     try:
         ole = prep_oled()
         # display_screen(ole)
@@ -32,3 +32,7 @@ if __name__ == '__main__':
     except (KeyboardInterrupt, SystemExit) as exErr:
         print("\nEnding OLED Hello Example")
         sys.exit(0)
+
+
+if __name__ == '__main__':
+    main()

@@ -20,7 +20,8 @@ setup(
     entry_points={
         'console_scripts': [
             'status_panel_node = status_panel.status_panel_node:main',
-            'display_ros = status_panel.display_ros:main',  # Assuming you have a main function in display_ros.py
+            'display_ros = status_panel.display_ros:main',
+            'test = status_panel.test:main'  # Assuming you have a main function in display_ros.py
         ],
     },
 )
