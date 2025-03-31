@@ -52,30 +52,38 @@ class StatusPanelNode(Node):
         # Call your provided function with voltage, odom rate, and scan rate.
         self.report_status(self.current_voltage, odom_rate, scan_rate)
 
-    def report_status(self, voltage, odom_rate, scan_rate):
-        # Replace this placeholder with your actual function implementation.
-        self.get_logger().info(
-            f"Voltage: {voltage} V, Odom Rate: {odom_rate:.2f} msgs/sec, Scan Rate: {scan_rate:.2f} msgs/sec"
-        )            
-
-    def run(self):
-        rclpy.spin(self)
-
     def prep_oled(self):
         ole = status_panel.qwiic_micro_oled_lib.QwiicMicroOled(60)
-        if not ole.OLED.connected:
+        if not ole.connected:
             print("The Qwiic Micro OLED device isn't connected to the system. Please check your connection", \
                 file=sys.stderr)
             return None
         ole.begin()
-        ole.clear(ole.ALL)
+        # ole.clear(ole.ALL)
         return ole
 
-    def display_screen(self, odom_rate, scan_rate, volt):
-        self.ole.clear(oled.ALL)
-        self.ole.clear(oled.PAGE)  # Clear the display's buffer
-        self.ole.print(f"Hellooo!!")
+    def report_status(self, volt, odom_rate, scan_rate):
+        # self.ole.clear(self.ole.ALL)
+        # self.ole.clear(self.ole.PAGE)  # Clear the display's buffer
+        self.ole.set_cursor(0,0)
+        self.ole.set_font_type(0)  # Set font type to 0 for the first line
+        self.ole.print(f"VOLT: {volt}\n")
+        self.ole.print(f"ODOM: {odom_rate}\n")
+        self.ole.print(f"SCAN: {scan_rate}\n")
+
+        self.ole.set_cursor(70, 10)
+        self.ole.set_font_type(1)
+        if volt == "n/a":
+            self.ole.print("ERR")  # If voltage is not available, print "ERR")
+        else:
+            self.ole.print("OK")
+
+
         self.ole.display()  # Write the buffer to the display       
+
+    def run(self):
+        rclpy.spin(self)
+
 
 def main(args=None):
     rclpy.init(args=args)
