@@ -4,6 +4,9 @@ from nav_msgs.msg import Odometry
 from sensor_msgs.msg import BatteryState, LaserScan
 import time
 
+import sys
+import time
+import status_panel.qwiic_micro_oled_lib
 
 class StatusPanelNode(Node):
     def __init__(self):
@@ -22,6 +25,9 @@ class StatusPanelNode(Node):
 
         # Timer: fires at 1 Hz to calculate rates and call report_status
         self.create_timer(1.0, self.timer_callback)
+
+        self.ole = self.prep_oled()
+
 
     def odom_callback(self, msg):
         self.odom_msg_count += 1
@@ -55,6 +61,21 @@ class StatusPanelNode(Node):
     def run(self):
         rclpy.spin(self)
 
+    def prep_oled(self):
+        ole = status_panel.qwiic_micro_oled_lib.QwiicMicroOled(60)
+        if not ole.OLED.connected:
+            print("The Qwiic Micro OLED device isn't connected to the system. Please check your connection", \
+                file=sys.stderr)
+            return None
+        ole.begin()
+        ole.clear(ole.ALL)
+        return ole
+
+    def display_screen(self, odom_rate, scan_rate, volt):
+        self.ole.clear(oled.ALL)
+        self.ole.clear(oled.PAGE)  # Clear the display's buffer
+        self.ole.print(f"Hellooo!!")
+        self.ole.display()  # Write the buffer to the display       
 
 def main(args=None):
     rclpy.init(args=args)

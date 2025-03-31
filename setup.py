@@ -21,7 +21,6 @@ setup(
         'console_scripts': [
             'status_panel_node = status_panel.status_panel_node:main',
             'display_ros = status_panel.display_ros:main',
-            'test_import = status_panel.test_import:main'  # Assuming you have a main function in display_ros.py
         ],
     },
 )

@@ -145,8 +145,6 @@ class OLEDFont():
 # handy util
 
 def _getFontDir():
-	print("*********** getting font dir")
-	print (f"{__file__:=} {os.sep=}") # for debugging
 	return __file__.rsplit(os.sep, 1)[0] +  os.sep + "fonts"
 
 #-----------------------------------------
