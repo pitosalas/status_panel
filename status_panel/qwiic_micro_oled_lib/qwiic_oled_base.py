@@ -75,8 +75,8 @@ _DEFAULT_NAME = "OLED Display Driver (SSD1306)"
 # device.
 _AVAILABLE_I2C_ADDRESS = [0x3D, 0x3C]
 
-_LCDWIDTH            = 64
-_LCDHEIGHT           = 48
+_LCDWIDTH            = 128
+_LCDHEIGHT           = 32
 #==================================================================================
 
 # The defines from the OLED Aurdino library

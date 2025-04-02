@@ -2,6 +2,7 @@ import rclpy
 from rclpy.node import Node
 from nav_msgs.msg import Odometry
 from sensor_msgs.msg import BatteryState, LaserScan
+from rclpy.qos import QoSProfile, QoSReliabilityPolicy
 import time
 
 import sys
@@ -14,8 +15,13 @@ class StatusPanelNode(Node):
 
         # Create subscriptions
         self.create_subscription(Odometry, '/odom', self.odom_callback, 10)
-        self.create_subscription(BatteryState, '/batt', self.batt_callback, 10)
-        self.create_subscription(LaserScan, '/scan', self.scan_callback, 10)
+        self.create_subscription(BatteryState, '/battery', self.batt_callback, 10)
+
+
+        qos = QoSProfile(depth=10)
+        qos.reliability = QoSReliabilityPolicy.BEST_EFFORT
+
+        self.create_subscription(LaserScan, '/scan', self.scan_callback, qos)
 
         # State variables
         self.odom_msg_count = 0
