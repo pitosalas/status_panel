@@ -1,0 +1,6 @@
+launch:
+  - node:
+      package: status_panel
+      executable: status_panel_node
+      name: status_panel_node
+      output: screen
