@@ -20,8 +20,8 @@ setup(
     entry_points={
         'console_scripts': [
             'status_panel_node = status_panel.status_panel_node:main',
-            'display_ros = status_panel.display_ros:main',
-            'display2 = status_panel.display2:main',
+            'd1 = status_panel.display1:main',
+            'd2 = status_panel.display2:main',
             'demo = status_panel.demo:main',
         ],
     },

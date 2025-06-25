@@ -1,0 +1,392 @@
+[0.000000] (-) TimerEvent: {}
+[0.005622] (status_panel) JobQueued: {'identifier': 'status_panel', 'dependencies': OrderedDict()}
+[0.009213] (status_panel) JobStarted: {'identifier': 'status_panel'}
+[0.102608] (-) TimerEvent: {}
+[0.209433] (-) TimerEvent: {}
+[0.310967] (-) TimerEvent: {}
+[0.413980] (-) TimerEvent: {}
+[0.517487] (-) TimerEvent: {}
+[0.620820] (-) TimerEvent: {}
+[0.722310] (-) TimerEvent: {}
+[0.824008] (-) TimerEvent: {}
+[0.925058] (-) TimerEvent: {}
+[1.026256] (-) TimerEvent: {}
+[1.126972] (-) TimerEvent: {}
+[1.227611] (-) TimerEvent: {}
+[1.328533] (-) TimerEvent: {}
+[1.429303] (-) TimerEvent: {}
+[1.529983] (-) TimerEvent: {}
+[1.630647] (-) TimerEvent: {}
+[1.731437] (-) TimerEvent: {}
+[1.832300] (-) TimerEvent: {}
+[1.939344] (-) TimerEvent: {}
+[2.044469] (-) TimerEvent: {}
+[2.145184] (-) TimerEvent: {}
+[2.245860] (-) TimerEvent: {}
+[2.346611] (-) TimerEvent: {}
+[2.447435] (-) TimerEvent: {}
+[2.548291] (-) TimerEvent: {}
+[2.654697] (-) TimerEvent: {}
+[2.755858] (-) TimerEvent: {}
+[2.856576] (-) TimerEvent: {}
+[2.957340] (-) TimerEvent: {}
+[3.058044] (-) TimerEvent: {}
+[3.158747] (-) TimerEvent: {}
+[3.259500] (-) TimerEvent: {}
+[3.360203] (-) TimerEvent: {}
+[3.460951] (-) TimerEvent: {}
+[3.561660] (-) TimerEvent: {}
+[3.662616] (-) TimerEvent: {}
+[3.763371] (-) TimerEvent: {}
+[3.864502] (-) TimerEvent: {}
+[3.965399] (-) TimerEvent: {}
+[4.066003] (-) TimerEvent: {}
+[4.166603] (-) TimerEvent: {}
+[4.267611] (-) TimerEvent: {}
+[4.368637] (-) TimerEvent: {}
+[4.469275] (-) TimerEvent: {}
+[4.570857] (-) TimerEvent: {}
+[4.674647] (-) TimerEvent: {}
+[4.775378] (-) TimerEvent: {}
+[4.876043] (-) TimerEvent: {}
+[4.976717] (-) TimerEvent: {}
+[5.077447] (-) TimerEvent: {}
+[5.178172] (-) TimerEvent: {}
+[5.278957] (-) TimerEvent: {}
+[5.379635] (-) TimerEvent: {}
+[5.480418] (-) TimerEvent: {}
+[5.581162] (-) TimerEvent: {}
+[5.681803] (-) TimerEvent: {}
+[5.782502] (-) TimerEvent: {}
+[5.883180] (-) TimerEvent: {}
+[5.984005] (-) TimerEvent: {}
+[6.084741] (-) TimerEvent: {}
+[6.185495] (-) TimerEvent: {}
+[6.286232] (-) TimerEvent: {}
+[6.387034] (-) TimerEvent: {}
+[6.487700] (-) TimerEvent: {}
+[6.588382] (-) TimerEvent: {}
+[6.689040] (-) TimerEvent: {}
+[6.790472] (-) TimerEvent: {}
+[6.891171] (-) TimerEvent: {}
+[6.991834] (-) TimerEvent: {}
+[7.092538] (-) TimerEvent: {}
+[7.193235] (-) TimerEvent: {}
+[7.294747] (-) TimerEvent: {}
+[7.395451] (-) TimerEvent: {}
+[7.496999] (-) TimerEvent: {}
+[7.597656] (-) TimerEvent: {}
+[7.698566] (-) TimerEvent: {}
+[7.799316] (-) TimerEvent: {}
+[7.900006] (-) TimerEvent: {}
+[8.001176] (-) TimerEvent: {}
+[8.102028] (-) TimerEvent: {}
+[8.203759] (-) TimerEvent: {}
+[8.243525] (status_panel) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/status_panel', 'build', '--build-base', '/home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build', 'install', '--record', '/home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pitosalas/linorobot2_ws/src/status_panel', 'env': {'LINOROBOT2_BASE': '2wd', 'TMUX': '/tmp/tmux-1000/default,3081,0', 'USER': 'pitosalas', 'SSH_CLIENT': '192.168.5.76 55338 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'MCFLY_HISTFILE': '/home/pitosalas/.bash_history', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pitosalas/linorobot2_ws/install/robot_msgs/lib:/home/pitosalas/linorobot2_ws/install/dome_interfaces/lib:/home/pitosalas/uros_ws/install/micro_ros_agent/lib:/home/pitosalas/uros_ws/install/micro_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pitosalas', 'MCFLY_HISTORY': '/tmp/mcfly.ECGj7Kl7', 'OLDPWD': '/home/pitosalas/linorobot2_ws', 'TERM_PROGRAM_VERSION': '3.4', 'SSH_TTY': '/dev/pts/5', 'ROS_PYTHON_VERSION': '3', 'PS1': '[\\h:\\w]', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_TERMINAL_VERSION': '3.5.14', 'COLCON_PREFIX_PATH': '/home/pitosalas/linorobot2_ws/install:/home/pitosalas/uros_ws/install', 'ROS_DISTRO': 'jazzy', 'MCFLY_LIGHT': 'TRUE', 'LOGNAME': 'pitosalas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'tmux-256color', 'XDG_SESSION_ID': '11', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/pitosalas/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pitosalas/.local/bin:/home/pitosalas/.platformio/penv/bin:/home/pitosalas/.local/bin:/home/pitosalas/.platformio/penv/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'TERM_PROGRAM': 'tmux', 'AMENT_PREFIX_PATH': '/home/pitosalas/linorobot2_ws/install/status_panel:/home/pitosalas/linorobot2_ws/install/obper:/home/pitosalas/linorobot2_ws/install/robot_msgs:/home/pitosalas/linorobot2_ws/install/nav_tools:/home/pitosalas/linorobot2_ws/install/micro_ros_setup:/home/pitosalas/linorobot2_ws/install/linorobot2_navigation:/home/pitosalas/linorobot2_ws/install/linorobot2_gazebo:/home/pitosalas/linorobot2_ws/install/dome:/home/pitosalas/linorobot2_ws/install/linorobot2_description:/home/pitosalas/linorobot2_ws/install/linorobot2_bringup:/home/pitosalas/linorobot2_ws/install/linorobot2_base:/home/pitosalas/linorobot2_ws/install/linorobot2:/home/pitosalas/linorobot2_ws/install/lib_ros_examples:/home/pitosalas/linorobot2_ws/install/imu_calib:/home/pitosalas/linorobot2_ws/install/i2clib:/home/pitosalas/linorobot2_ws/install/hls_lfcd_lds_driver:/home/pitosalas/linorobot2_ws/install/dome_interfaces:/home/pitosalas/linorobot2_ws/install/dash:/home/pitosalas/uros_ws/install/micro_ros_agent:/home/pitosalas/uros_ws/install/micro_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_TERMINAL': 'iTerm2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel', 'MCFLY_SESSION_ID': 'Doatb3LDwEvUJ8jVVkYMzzQw', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.5.76 55338 192.168.5.118 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LINOROBOT2_DEPTH_SENSOR': '', 'PYTHONPATH': '/home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/status_panel/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/obper/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/robot_msgs/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/linorobot2_gazebo/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/dome/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/lib_ros_examples/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/i2clib/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/dome_interfaces/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/dash/lib/python3.12/site-packages:/home/pitosalas/uros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'LINOROBOT2_LASER_SENSOR': '', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/home/pitosalas/linorobot2_ws/install/robot_msgs:/home/pitosalas/linorobot2_ws/install/nav_tools:/home/pitosalas/linorobot2_ws/install/micro_ros_setup:/home/pitosalas/linorobot2_ws/install/linorobot2_navigation:/home/pitosalas/linorobot2_ws/install/linorobot2_gazebo:/home/pitosalas/linorobot2_ws/install/linorobot2_description:/home/pitosalas/linorobot2_ws/install/linorobot2_bringup:/home/pitosalas/linorobot2_ws/install/linorobot2_base:/home/pitosalas/linorobot2_ws/install/linorobot2:/home/pitosalas/linorobot2_ws/install/imu_calib:/home/pitosalas/linorobot2_ws/install/hls_lfcd_lds_driver:/home/pitosalas/linorobot2_ws/install/dome_interfaces:/home/pitosalas/uros_ws/install/micro_ros_agent:/home/pitosalas/uros_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'ROS2_WS': 'linorobot2_ws'}, 'shell': False}
+[8.303977] (-) TimerEvent: {}
+[8.404717] (-) TimerEvent: {}
+[8.505503] (-) TimerEvent: {}
+[8.606391] (-) TimerEvent: {}
+[8.707116] (-) TimerEvent: {}
+[8.807766] (-) TimerEvent: {}
+[8.908503] (-) TimerEvent: {}
+[9.009185] (-) TimerEvent: {}
+[9.109855] (-) TimerEvent: {}
+[9.210564] (-) TimerEvent: {}
+[9.311255] (-) TimerEvent: {}
+[9.411948] (-) TimerEvent: {}
+[9.512617] (-) TimerEvent: {}
+[9.613427] (-) TimerEvent: {}
+[9.714103] (-) TimerEvent: {}
+[9.814750] (-) TimerEvent: {}
+[9.915437] (-) TimerEvent: {}
+[10.016138] (-) TimerEvent: {}
+[10.116808] (-) TimerEvent: {}
+[10.217506] (-) TimerEvent: {}
+[10.318189] (-) TimerEvent: {}
+[10.418843] (-) TimerEvent: {}
+[10.443758] (status_panel) StdoutLine: {'line': b'running egg_info\n'}
+[10.446820] (status_panel) StdoutLine: {'line': b'creating build/status_panel/status_panel.egg-info\n'}
+[10.519037] (-) TimerEvent: {}
+[10.619710] (-) TimerEvent: {}
+[10.631946] (status_panel) StdoutLine: {'line': b'writing build/status_panel/status_panel.egg-info/PKG-INFO\n'}
+[10.634534] (status_panel) StdoutLine: {'line': b'writing dependency_links to build/status_panel/status_panel.egg-info/dependency_links.txt\n'}
+[10.635304] (status_panel) StdoutLine: {'line': b'writing entry points to build/status_panel/status_panel.egg-info/entry_points.txt\n'}
+[10.638180] (status_panel) StdoutLine: {'line': b'writing requirements to build/status_panel/status_panel.egg-info/requires.txt\n'}
+[10.638981] (status_panel) StdoutLine: {'line': b'writing top-level names to build/status_panel/status_panel.egg-info/top_level.txt\n'}
+[10.639643] (status_panel) StdoutLine: {'line': b"writing manifest file 'build/status_panel/status_panel.egg-info/SOURCES.txt'\n"}
+[10.719952] (-) TimerEvent: {}
+[10.820664] (-) TimerEvent: {}
+[10.923162] (-) TimerEvent: {}
+[11.024026] (-) TimerEvent: {}
+[11.027008] (status_panel) StdoutLine: {'line': b"reading manifest file 'build/status_panel/status_panel.egg-info/SOURCES.txt'\n"}
+[11.034716] (status_panel) StdoutLine: {'line': b"writing manifest file 'build/status_panel/status_panel.egg-info/SOURCES.txt'\n"}
+[11.036302] (status_panel) StdoutLine: {'line': b'running build\n'}
+[11.036969] (status_panel) StdoutLine: {'line': b'running build_py\n'}
+[11.038019] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build\n'}
+[11.038812] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib\n'}
+[11.039742] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel\n'}
+[11.040725] (status_panel) StdoutLine: {'line': b'copying status_panel/display2.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel\n'}
+[11.041527] (status_panel) StdoutLine: {'line': b'copying status_panel/status_panel_node.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel\n'}
+[11.042418] (status_panel) StdoutLine: {'line': b'copying status_panel/display1.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel\n'}
+[11.043502] (status_panel) StdoutLine: {'line': b'copying status_panel/demo.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel\n'}
+[11.044123] (status_panel) StdoutLine: {'line': b'copying status_panel/__init__.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel\n'}
+[11.060065] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install\n'}
+[11.061082] (status_panel) StdoutLine: {'line': b'copying status_panel/install/setup.ps1 -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install\n'}
+[11.062903] (status_panel) StdoutLine: {'line': b'copying status_panel/install/local_setup.sh -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install\n'}
+[11.067183] (status_panel) StdoutLine: {'line': b'copying status_panel/install/_local_setup_util_sh.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install\n'}
+[11.068225] (status_panel) StdoutLine: {'line': b'copying status_panel/install/setup.bash -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install\n'}
+[11.069302] (status_panel) StdoutLine: {'line': b'copying status_panel/install/setup.zsh -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install\n'}
+[11.072367] (status_panel) StdoutLine: {'line': b'copying status_panel/install/local_setup.zsh -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install\n'}
+[11.073316] (status_panel) StdoutLine: {'line': b'copying status_panel/install/local_setup.bash -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install\n'}
+[11.075033] (status_panel) StdoutLine: {'line': b'copying status_panel/install/COLCON_IGNORE -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install\n'}
+[11.076188] (status_panel) StdoutLine: {'line': b'copying status_panel/install/_local_setup_util_ps1.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install\n'}
+[11.077932] (status_panel) StdoutLine: {'line': b'copying status_panel/install/local_setup.ps1 -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install\n'}
+[11.079547] (status_panel) StdoutLine: {'line': b'copying status_panel/install/setup.sh -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install\n'}
+[11.081039] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py\n'}
+[11.081791] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/LICENSE -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py\n'}
+[11.083063] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/MANIFEST.in -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py\n'}
+[11.084562] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/DESCRIPTION.rst -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py\n'}
+[11.086021] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/requirements.txt -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py\n'}
+[11.087610] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/package.json -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py\n'}
+[11.089043] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/pyproject.toml -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py\n'}
+[11.090059] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/README.md -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py\n'}
+[11.098032] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/examples\n'}
+[11.099973] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/examples/ex3_demo.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/examples\n'}
+[11.101189] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/examples/ex2_hello_world.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/examples\n'}
+[11.102452] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/examples/ex5_micro_bitmap.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/examples\n'}
+[11.103749] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/examples/ex1_splash_screen.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/examples\n'}
+[11.105013] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/examples/README.md -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/examples\n'}
+[11.106858] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/examples/ex4_cube.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/examples\n'}
+[11.108080] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled\n'}
+[11.109033] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/qwiic_oled/oled_logos.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled\n'}
+[11.110180] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/qwiic_oled/qwiic_oled_base.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled\n'}
+[11.111780] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/qwiic_oled/qwiic_oled_display.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled\n'}
+[11.113149] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/qwiic_oled/__init__.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled\n'}
+[11.114405] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/qwiic_oled/oled_fonts.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled\n'}
+[11.115778] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/qwiic_oled/qwiic_micro_oled.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled\n'}
+[11.117145] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/qwiic_oled/qwiic_large_oled.py -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled\n'}
+[11.118400] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/fonts\n'}
+[11.119402] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/qwiic_oled/fonts/2_7segment.bin -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/fonts\n'}
+[11.120943] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/qwiic_oled/fonts/0_font5x7.bin -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/fonts\n'}
+[11.122740] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/qwiic_oled/fonts/3_fontlargenumber.bin -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/fonts\n'}
+[11.124161] (-) TimerEvent: {}
+[11.124858] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/qwiic_oled/fonts/1_font8x16.bin -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/fonts\n'}
+[11.126602] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/qwiic_oled/fonts/4_fontlargeletter31x48.bin -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/fonts\n'}
+[11.128791] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs\n'}
+[11.129835] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/requirements.txt -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs\n'}
+[11.131462] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen\n'}
+[11.132552] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-config -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen\n'}
+[11.138251] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-custom\n'}
+[11.139265] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-custom/header.html -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-custom\n'}
+[11.141223] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-custom/custom.css -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-custom\n'}
+[11.143061] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.144101] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-awesome-sidebar-only.css -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.145828] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/logo.drawio.svg -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.147746] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/Doxyfile -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.153363] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/LICENSE -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.156156] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/Makefile -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.157503] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-awesome-interactive-toc.js -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.159607] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-awesome-sidebar-only-darkmode-toggle.css -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.162372] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-awesome-paragraph-link.js -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.164990] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-awesome.css -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.169596] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-awesome-darkmode-toggle.js -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.172278] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/package.json -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.174891] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-awesome-tabs.js -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.177429] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/README.md -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.179570] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-awesome-fragment-copy-button.js -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.181988] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom\n'}
+[11.183205] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom/header.html -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom\n'}
+[11.184415] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom/custom.css -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom\n'}
+[11.186553] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom/toggle-alternative-theme.js -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom\n'}
+[11.188191] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom/custom-alternative.css -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom\n'}
+[11.190259] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img\n'}
+[11.191406] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img/theme-variants-sidebar-only.drawio.svg -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img\n'}
+[11.193576] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img/theme-variants-base.drawio.svg -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img\n'}
+[11.200631] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img/testimage.png -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img\n'}
+[11.203977] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img/screenshot.png -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img\n'}
+[11.211951] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs\n'}
+[11.212931] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/extensions.md -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs\n'}
+[11.215621] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/customization.md -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs\n'}
+[11.218125] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/tricks.md -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs\n'}
+[11.220584] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img\n'}
+[11.221984] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img/interactive_toc_mobile.png -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img\n'}
+[11.224332] (-) TimerEvent: {}
+[11.225296] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img/fancy_scrollbars_webkit.gif -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img\n'}
+[11.324575] (-) TimerEvent: {}
+[11.356971] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img/fancy_scrollbars_firefox.png -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img\n'}
+[11.363990] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img/darkmode_toggle.png -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img\n'}
+[11.369135] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img/fragment_copy_button.png -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img\n'}
+[11.374344] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img/paragraph_link.png -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img\n'}
+[11.381632] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/include\n'}
+[11.385978] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/include/MyLibrary\n'}
+[11.386624] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/include/MyLibrary/example.hpp -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/include/MyLibrary\n'}
+[11.389447] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/include/MyLibrary/subclass-example.hpp -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/include/MyLibrary\n'}
+[11.391071] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/images\n'}
+[11.393462] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/images/gh-banner.png -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/images\n'}
+[11.409036] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/images/sfe_flame.png -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/images\n'}
+[11.411248] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/_static\n'}
+[11.413846] (status_panel) StdoutLine: {'line': b'copying status_panel/qwiic_oled_base_py/docs/_static/favicon.ico -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/_static\n'}
+[11.415846] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/build\n'}
+[11.418999] (status_panel) StdoutLine: {'line': b'copying status_panel/build/COLCON_IGNORE -> /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/build\n'}
+[11.421296] (status_panel) StdoutLine: {'line': b'running install\n'}
+[11.424798] (-) TimerEvent: {}
+[11.450098] (status_panel) StdoutLine: {'line': b'running install_lib\n'}
+[11.525030] (-) TimerEvent: {}
+[11.626420] (-) TimerEvent: {}
+[11.717043] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/display2.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel\n'}
+[11.720528] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/install\n'}
+[11.721274] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install/setup.ps1 -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/install\n'}
+[11.725635] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install/local_setup.sh -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/install\n'}
+[11.727430] (-) TimerEvent: {}
+[11.731316] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install/_local_setup_util_sh.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/install\n'}
+[11.733770] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install/setup.bash -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/install\n'}
+[11.735626] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install/setup.zsh -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/install\n'}
+[11.744560] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install/local_setup.zsh -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/install\n'}
+[11.745215] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install/local_setup.bash -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/install\n'}
+[11.748337] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install/COLCON_IGNORE -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/install\n'}
+[11.751326] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install/_local_setup_util_ps1.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/install\n'}
+[11.752217] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install/local_setup.ps1 -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/install\n'}
+[11.755457] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/install/setup.sh -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/install\n'}
+[11.756272] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/status_panel_node.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel\n'}
+[11.757039] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py\n'}
+[11.757725] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/LICENSE -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py\n'}
+[11.759234] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/MANIFEST.in -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py\n'}
+[11.760158] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/DESCRIPTION.rst -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py\n'}
+[11.761094] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/requirements.txt -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py\n'}
+[11.761657] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/examples\n'}
+[11.762802] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/examples/ex3_demo.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/examples\n'}
+[11.763659] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/examples/ex2_hello_world.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/examples\n'}
+[11.764424] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/examples/ex5_micro_bitmap.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/examples\n'}
+[11.765702] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/examples/ex1_splash_screen.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/examples\n'}
+[11.766556] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/examples/README.md -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/examples\n'}
+[11.767510] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/examples/ex4_cube.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/examples\n'}
+[11.769770] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/package.json -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py\n'}
+[11.770932] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/pyproject.toml -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py\n'}
+[11.773812] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/README.md -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py\n'}
+[11.775217] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled\n'}
+[11.775770] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/oled_logos.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled\n'}
+[11.778619] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/qwiic_oled_base.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled\n'}
+[11.780837] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/qwiic_oled_display.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled\n'}
+[11.782626] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/__init__.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled\n'}
+[11.783298] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled/fonts\n'}
+[11.783825] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/fonts/2_7segment.bin -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled/fonts\n'}
+[11.784984] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/fonts/0_font5x7.bin -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled/fonts\n'}
+[11.785619] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/fonts/3_fontlargenumber.bin -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled/fonts\n'}
+[11.786211] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/fonts/1_font8x16.bin -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled/fonts\n'}
+[11.787284] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/fonts/4_fontlargeletter31x48.bin -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled/fonts\n'}
+[11.788200] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/oled_fonts.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled\n'}
+[11.788747] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/qwiic_micro_oled.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled\n'}
+[11.789811] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/qwiic_oled/qwiic_large_oled.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled\n'}
+[11.790625] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs\n'}
+[11.791391] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen\n'}
+[11.792071] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-custom\n'}
+[11.792801] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-custom/header.html -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-custom\n'}
+[11.793659] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-custom/custom.css -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-custom\n'}
+[11.794473] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-config -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen\n'}
+[11.795080] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.795669] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-awesome-sidebar-only.css -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.796775] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/logo.drawio.svg -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.798388] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/Doxyfile -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.799371] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/LICENSE -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.799943] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/Makefile -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.801436] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-awesome-interactive-toc.js -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.802453] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-awesome-sidebar-only-darkmode-toggle.css -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.803455] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-awesome-paragraph-link.js -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.804242] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom\n'}
+[11.804932] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom/header.html -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom\n'}
+[11.806015] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom/custom.css -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom\n'}
+[11.806646] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom/toggle-alternative-theme.js -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom\n'}
+[11.807518] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom/custom-alternative.css -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-custom\n'}
+[11.808238] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-awesome.css -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.809295] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-awesome-darkmode-toggle.js -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.810762] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img\n'}
+[11.811759] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img/theme-variants-sidebar-only.drawio.svg -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img\n'}
+[11.813238] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img/theme-variants-base.drawio.svg -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img\n'}
+[11.814718] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img/testimage.png -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img\n'}
+[11.816205] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img/screenshot.png -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/img\n'}
+[11.819027] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/package.json -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.820425] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-awesome-tabs.js -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.821832] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/README.md -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.823300] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/doxygen-awesome-fragment-copy-button.js -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css\n'}
+[11.825013] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs\n'}
+[11.826907] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/extensions.md -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs\n'}
+[11.828542] (-) TimerEvent: {}
+[11.828962] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/customization.md -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs\n'}
+[11.830850] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img\n'}
+[11.831479] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img/interactive_toc_mobile.png -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img\n'}
+[11.832835] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img/fancy_scrollbars_webkit.gif -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img\n'}
+[11.870779] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img/fancy_scrollbars_firefox.png -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img\n'}
+[11.873188] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img/darkmode_toggle.png -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img\n'}
+[11.876107] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img/fragment_copy_button.png -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img\n'}
+[11.878577] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img/paragraph_link.png -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/img\n'}
+[11.881835] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs/tricks.md -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/docs\n'}
+[11.885036] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/include\n'}
+[11.887576] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/include/MyLibrary\n'}
+[11.889023] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/include/MyLibrary/example.hpp -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/include/MyLibrary\n'}
+[11.889836] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/include/MyLibrary/subclass-example.hpp -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/doxygen/doxygen-awesome-css/include/MyLibrary\n'}
+[11.896115] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/requirements.txt -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs\n'}
+[11.900158] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/images\n'}
+[11.903541] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/images/gh-banner.png -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/images\n'}
+[11.904444] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/images/sfe_flame.png -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/images\n'}
+[11.905203] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/_static\n'}
+[11.910608] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/qwiic_oled_base_py/docs/_static/favicon.ico -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/docs/_static\n'}
+[11.911440] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/display1.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel\n'}
+[11.912605] (status_panel) StdoutLine: {'line': b'creating /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/build\n'}
+[11.913453] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/build/COLCON_IGNORE -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/build\n'}
+[11.915496] (status_panel) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/build/lib/status_panel/demo.py -> /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel\n'}
+[11.916253] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/display2.py to display2.cpython-312.pyc\n'}
+[11.917069] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/install/_local_setup_util_sh.py to _local_setup_util_sh.cpython-312.pyc\n'}
+[11.928785] (-) TimerEvent: {}
+[11.932358] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/install/_local_setup_util_ps1.py to _local_setup_util_ps1.cpython-312.pyc\n'}
+[11.943133] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/status_panel_node.py to status_panel_node.cpython-312.pyc\n'}
+[11.947403] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/examples/ex3_demo.py to ex3_demo.cpython-312.pyc\n'}
+[11.954555] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/examples/ex2_hello_world.py to ex2_hello_world.cpython-312.pyc\n'}
+[11.963283] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/examples/ex5_micro_bitmap.py to ex5_micro_bitmap.cpython-312.pyc\n'}
+[11.967567] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/examples/ex1_splash_screen.py to ex1_splash_screen.cpython-312.pyc\n'}
+[11.970087] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/examples/ex4_cube.py to ex4_cube.cpython-312.pyc\n'}
+[11.974510] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled/oled_logos.py to oled_logos.cpython-312.pyc\n'}
+[11.987845] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled/qwiic_oled_base.py to qwiic_oled_base.cpython-312.pyc\n'}
+[12.005077] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled/qwiic_oled_display.py to qwiic_oled_display.cpython-312.pyc\n'}
+[12.007659] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled/__init__.py to __init__.cpython-312.pyc\n'}
+[12.009738] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled/oled_fonts.py to oled_fonts.cpython-312.pyc\n'}
+[12.014768] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled/qwiic_micro_oled.py to qwiic_micro_oled.cpython-312.pyc\n'}
+[12.017334] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/qwiic_oled_base_py/qwiic_oled/qwiic_large_oled.py to qwiic_large_oled.cpython-312.pyc\n'}
+[12.020004] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/display1.py to display1.cpython-312.pyc\n'}
+[12.023102] (status_panel) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel/demo.py to demo.cpython-312.pyc\n'}
+[12.029023] (-) TimerEvent: {}
+[12.031129] (status_panel) StdoutLine: {'line': b'running install_data\n'}
+[12.032166] (status_panel) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.130030] (-) TimerEvent: {}
+[12.234032] (-) TimerEvent: {}
+[12.274693] (status_panel) StdoutLine: {'line': b"removing '/home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel-0.1.0-py3.12.egg-info' (and everything under it)\n"}
+[12.285151] (status_panel) StdoutLine: {'line': b'Copying build/status_panel/status_panel.egg-info to /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/python3.12/site-packages/status_panel-0.1.0-py3.12.egg-info\n'}
+[12.297180] (status_panel) StdoutLine: {'line': b'running install_scripts\n'}
+[12.334365] (-) TimerEvent: {}
+[12.438195] (-) TimerEvent: {}
+[12.542034] (-) TimerEvent: {}
+[12.643246] (-) TimerEvent: {}
+[12.745168] (-) TimerEvent: {}
+[12.850246] (-) TimerEvent: {}
+[12.957461] (-) TimerEvent: {}
+[13.061153] (-) TimerEvent: {}
+[13.162015] (-) TimerEvent: {}
+[13.262787] (-) TimerEvent: {}
+[13.363602] (-) TimerEvent: {}
+[13.464414] (-) TimerEvent: {}
+[13.565147] (-) TimerEvent: {}
+[13.666058] (-) TimerEvent: {}
+[13.766815] (-) TimerEvent: {}
+[13.867590] (-) TimerEvent: {}
+[13.949256] (status_panel) StdoutLine: {'line': b'Installing d1 script to /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/status_panel\n'}
+[13.952016] (status_panel) StdoutLine: {'line': b'Installing d2 script to /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/status_panel\n'}
+[13.953005] (status_panel) StdoutLine: {'line': b'Installing demo script to /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/status_panel\n'}
+[13.953678] (status_panel) StdoutLine: {'line': b'Installing display_ros script to /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/status_panel\n'}
+[13.955741] (status_panel) StdoutLine: {'line': b'Installing status_panel_node script to /home/pitosalas/linorobot2_ws/src/status_panel/install/status_panel/lib/status_panel\n'}
+[13.960184] (status_panel) StdoutLine: {'line': b"writing list of installed files to '/home/pitosalas/linorobot2_ws/src/status_panel/build/status_panel/install.log'\n"}
+[13.972145] (-) TimerEvent: {}
+[14.076370] (-) TimerEvent: {}
+[14.142164] (status_panel) CommandEnded: {'returncode': 0}
+[14.183179] (-) TimerEvent: {}
+[14.275506] (status_panel) JobEnded: {'identifier': 'status_panel', 'rc': 0}
+[14.280310] (-) EventReactorShutdown: {}
