@@ -12,137 +12,9 @@ import status_panel.qwiic_micro_oled_lib
 import math
 
 
-ok_screen_buffer = [
-    124,
-    0,
-    16,
-    56,
-    56,
-    40,
-    32,
-    32,
-    32,
-    32,
-    32,
-    32,
-    40,
-    56,
-    56,
-    16,
-    0,
-    0,
-    56,
-    56,
-    56,
-    16,
-    16,
-    24,
-    24,
-    56,
-    40,
-    32,
-    32,
-    0,
-    0,
-    124,
-    124,
-    0,
-    24,
-    24,
-    56,
-    32,
-    36,
-    36,
-    36,
-    36,
-    36,
-    36,
-    32,
-    56,
-    24,
-    24,
-    0,
-    0,
-    60,
-    60,
-    60,
-    16,
-    8,
-    24,
-    24,
-    24,
-    52,
-    36,
-    36,
-    36,
-    0,
-    124,
-    126,
-    66,
-    90,
-    90,
-    94,
-    70,
-    102,
-    102,
-    102,
-    102,
-    102,
-    102,
-    70,
-    94,
-    90,
-    90,
-    66,
-    66,
-    126,
-    126,
-    126,
-    74,
-    74,
-    74,
-    90,
-    86,
-    86,
-    102,
-    102,
-    98,
-    66,
-    126,
-    62,
-    0,
-    8,
-    28,
-    28,
-    20,
-    20,
-    4,
-    4,
-    4,
-    4,
-    4,
-    20,
-    28,
-    28,
-    8,
-    0,
-    0,
-    28,
-    28,
-    28,
-    8,
-    8,
-    8,
-    28,
-    20,
-    20,
-    20,
-    0,
-    0,
-    0,
-    62,
-]
+ok_bitmap = [192, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 192, 255, 0, 224, 248, 252, 28, 14, 14, 14, 14, 14, 14, 28, 252, 248, 224, 0, 0, 254, 254, 254, 192, 224, 240, 248, 60, 30, 14, 6, 2, 0, 255, 255, 0, 7, 31, 63, 56, 120, 112, 112, 112, 112, 112, 56, 63, 31, 7, 0, 0, 127, 127, 127, 3, 1, 3, 15, 31, 62, 120, 112, 96, 0, 255, 7, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 7]
 
+err_bitmap = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 1, 1, 249, 137, 137, 137, 137, 137, 1, 249, 9, 9, 9, 9, 241, 1, 1, 249, 9, 9, 9, 9, 241, 1, 1, 1, 255, 0, 0, 0, 0, 127, 64, 64, 95, 80, 80, 80, 80, 80, 64, 95, 65, 65, 65, 67, 76, 80, 64, 95, 65, 65, 65, 67, 76, 80, 64, 64, 127, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 class StatusPanelNode(Node):
     def __init__(self):
@@ -164,7 +36,7 @@ class StatusPanelNode(Node):
         self.last_time = time.time()
 
         # Timer: fires at 1 Hz to calculate rates and call report_status
-        self.create_timer(1.0, self.timer_callback)
+        self.create_timer(5.0, self.timer_callback)
 
         self.ole = self.prep_oled()
 
@@ -180,8 +52,8 @@ class StatusPanelNode(Node):
     def timer_callback(self):
         now = time.time()
         elapsed = now - self.last_time
-        odom_rate = self.odom_msg_count / elapsed if elapsed > 0 else 0.0
-        scan_rate = self.scan_msg_count / elapsed if elapsed > 0 else 0.0
+        self.odom_rate = self.odom_msg_count / elapsed if elapsed > 0 else 0.0
+        self.scan_rate = self.scan_msg_count / elapsed if elapsed > 0 else 0.0
 
         # Reset counters and timer for the next interval
         self.last_time = now
@@ -189,8 +61,37 @@ class StatusPanelNode(Node):
         self.scan_msg_count = 0
 
         # Call your provided function with voltage, odom rate, and scan rate.
-        # self.report_status(self.current_voltage, odom_rate, scan_rate)
-        self.display_ok2()
+        self.report_status(self.current_voltage, self.odom_rate, self.scan_rate)
+        self.show_status_icons()
+
+    def show_status_icons(self):
+        if not self.ole:
+            return
+        if (self.current_voltage < 10.0) or self.odom_rate < 10.0:
+            # Display error icon
+            self.display_error_icon()
+        else:
+            # Display OK icon
+            self.display_ok_icon()
+
+    def display_ok_icon(self):
+        self.display_bitmap(
+            bit_width=32,
+            bit_height=32,
+            start_x=96,
+            start_y=0,
+            bitmap=ok_bitmap
+        )
+
+    def display_error_icon(self):
+        self.display_bitmap(
+            bit_width=32,
+            bit_height=32,
+            start_x=96,
+            start_y=0,
+            bitmap=err_bitmap
+        )
+
 
     def prep_oled(self):
         ole = status_panel.qwiic_micro_oled_lib.QwiicMicroOled(60)
@@ -216,53 +117,17 @@ class StatusPanelNode(Node):
         self.ole.write("\n")  # New line
         self.ole.display()  # Write the buffer to the display
 
-    def display_ok2(self):
 
+    def display_bitmap(self, bit_width, bit_height, start_x, start_y, bitmap):
         if self.ole:
             o = self.ole
             scrn_buffer = o._screenbuffer
-            scrn_width = 128
-            scrn_height = 32
-            start_x = 96
-            start_y = 0
-            for x in range(start_x, scrn_width):
-                for y in range(math.ceil(start_y/8), math.ceil(scrn_height/8)):
-                    if x < len(ok_screen_buffer) and y < len(ok_screen_buffer):
-                        index = y * scrn_width + x
-                        print(f"Setting pixel at ({x}, {y}) [{index}] to {ok_screen_buffer[x]}")
-                        scrn_buffer[index] = ok_screen_buffer[y * math.ceil(scrn_width/8) + x]
+            for page in range(math.ceil(bit_height / 8)):
+                for col in range(bit_width):
+                    screenpos = ((page + start_y) * 128) + col + start_x
+                    bitmap_pos = page * bit_width + col
+                    scrn_buffer[screenpos] = bitmap[bitmap_pos]
             o.display()
-
-    def dislay_ok(self):
-        if self.ole:
-            myOLED  = self.ole
-            # myOLED.begin()
-
-            #  clear(ALL) will clear out the OLED's graphic memory.
-            # myOLED.clear(myOLED.ALL) #  Clear the display's memory (gets rid of artifacts)
-
-            # #  Display buffer contents
-            # myOLED.display()
-            # time.sleep(3)
-
-            #  clear(PAGE) will clear the Arduino's display buffer.
-            # myOLED.clear(myOLED.PAGE)  #  Clear the display's buffer
-
-            #  Display buffer contents
-            # myOLED.display()
-            # time.sleep(3)
-
-            print(
-                f"bitmap supplied length is {len(ok_screen_buffer)}... screen buffer of chip is: {len(myOLED._screenbuffer)}"
-            )
-
-            #  Draw Bitmap
-            #  ---------------------------------------------------------------------------
-            #  Add bitmap to buffer
-            myOLED.draw_bitmap(ok_screen_buffer)
-
-            #  To actually draw anything on the display, you must call the display() function.
-            myOLED.display()
 
     def run(self):
         rclpy.spin(self)
