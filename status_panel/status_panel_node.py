@@ -7,14 +7,9 @@ from rclpy.qos import QoSProfile, QoSReliabilityPolicy
 import time
 
 import sys
-import time
 import status_panel.qwiic_micro_oled_lib
-import math
 
-
-ok_bitmap = [192, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 192, 255, 0, 224, 248, 252, 28, 14, 14, 14, 14, 14, 14, 28, 252, 248, 224, 0, 0, 254, 254, 254, 192, 224, 240, 248, 60, 30, 14, 6, 2, 0, 255, 255, 0, 7, 31, 63, 56, 120, 112, 112, 112, 112, 112, 56, 63, 31, 7, 0, 0, 127, 127, 127, 3, 1, 3, 15, 31, 62, 120, 112, 96, 0, 255, 7, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 7]
-
-err_bitmap = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 1, 1, 249, 137, 137, 137, 137, 137, 1, 249, 9, 9, 9, 9, 241, 1, 1, 249, 9, 9, 9, 9, 241, 1, 1, 1, 255, 0, 0, 0, 0, 127, 64, 64, 95, 80, 80, 80, 80, 80, 64, 95, 65, 65, 65, 67, 76, 80, 64, 95, 65, 65, 65, 67, 76, 80, 64, 64, 127, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+TIMER_INTERVAL= 5.0  # seconds
 
 class StatusPanelNode(Node):
     def __init__(self):
@@ -35,8 +30,7 @@ class StatusPanelNode(Node):
         self.current_voltage = 0.0
         self.last_time = time.time()
 
-        # Timer: fires at 1 Hz to calculate rates and call report_status
-        self.create_timer(5.0, self.timer_callback)
+        self.create_timer(TIMER_INTERVAL, self.timer_callback)
 
         self.ole = self.prep_oled()
 
@@ -64,35 +58,6 @@ class StatusPanelNode(Node):
         self.report_status(self.current_voltage, self.odom_rate, self.scan_rate)
         self.show_status_icons()
 
-    def show_status_icons(self):
-        if not self.ole:
-            return
-        if (self.current_voltage < 10.0) or self.odom_rate < 10.0:
-            # Display error icon
-            self.display_error_icon()
-        else:
-            # Display OK icon
-            self.display_ok_icon()
-
-    def display_ok_icon(self):
-        self.display_bitmap(
-            bit_width=32,
-            bit_height=32,
-            start_x=96,
-            start_y=0,
-            bitmap=ok_bitmap
-        )
-
-    def display_error_icon(self):
-        self.display_bitmap(
-            bit_width=32,
-            bit_height=32,
-            start_x=96,
-            start_y=0,
-            bitmap=err_bitmap
-        )
-
-
     def prep_oled(self):
         ole = status_panel.qwiic_micro_oled_lib.QwiicMicroOled(60)
         if not ole.connected:
@@ -117,7 +82,6 @@ class StatusPanelNode(Node):
         self.ole.write("\n")  # New line
         self.ole.display()  # Write the buffer to the display
 
-
     def display_bitmap(self, bit_width, bit_height, start_x, start_y, bitmap):
         if self.ole:
             o = self.ole
@@ -129,8 +93,291 @@ class StatusPanelNode(Node):
                     scrn_buffer[screenpos] = bitmap[bitmap_pos]
             o.display()
 
+    def show_status_icons(self):
+        if not self.ole:
+            return
+        if (self.current_voltage < 10.0) or self.odom_rate < 10.0:
+            # Display error icon
+            self.display_error_icon()
+        else:
+            # Display OK icon
+            self.display_ok_icon()
+
+    def display_ok_icon(self):
+        self.display_bitmap(
+            bit_width=32, bit_height=32, start_x=96, start_y=0, bitmap=ok_bitmap
+        )
+
+    def display_error_icon(self):
+        self.display_bitmap(
+            bit_width=32, bit_height=32, start_x=96, start_y=0, bitmap=err_bitmap
+        )
+
     def run(self):
         rclpy.spin(self)
+
+
+ok_bitmap = [
+    192,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    192,
+    255,
+    0,
+    224,
+    248,
+    252,
+    28,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    28,
+    252,
+    248,
+    224,
+    0,
+    0,
+    254,
+    254,
+    254,
+    192,
+    224,
+    240,
+    248,
+    60,
+    30,
+    14,
+    6,
+    2,
+    0,
+    255,
+    255,
+    0,
+    7,
+    31,
+    63,
+    56,
+    120,
+    112,
+    112,
+    112,
+    112,
+    112,
+    56,
+    63,
+    31,
+    7,
+    0,
+    0,
+    127,
+    127,
+    127,
+    3,
+    1,
+    3,
+    15,
+    31,
+    62,
+    120,
+    112,
+    96,
+    0,
+    255,
+    7,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    7,
+]
+
+err_bitmap = [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    255,
+    1,
+    1,
+    249,
+    137,
+    137,
+    137,
+    137,
+    137,
+    1,
+    249,
+    9,
+    9,
+    9,
+    9,
+    241,
+    1,
+    1,
+    249,
+    9,
+    9,
+    9,
+    9,
+    241,
+    1,
+    1,
+    1,
+    255,
+    0,
+    0,
+    0,
+    0,
+    127,
+    64,
+    64,
+    95,
+    80,
+    80,
+    80,
+    80,
+    80,
+    64,
+    95,
+    65,
+    65,
+    65,
+    67,
+    76,
+    80,
+    64,
+    95,
+    65,
+    65,
+    65,
+    67,
+    76,
+    80,
+    64,
+    64,
+    127,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+]
 
 
 def main(args=None):
